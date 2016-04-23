@@ -807,8 +807,8 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="10"/>
 <contactref element="R5" pad="2"/>
 <contactref element="R8" pad="1"/>
-<wire x1="40.64" y1="51.435" x2="41.91" y2="48.26" width="0.8128" layer="16"/>
-<wire x1="41.91" y1="48.26" x2="44.45" y2="46.355" width="0.8128" layer="16"/>
+<wire x1="40.64" y1="51.435" x2="42.545" y2="49.53" width="0.8128" layer="16"/>
+<wire x1="42.545" y1="49.53" x2="44.45" y2="46.355" width="0.8128" layer="16"/>
 <wire x1="37.7825" y1="53.34" x2="36.83" y2="53.34" width="0.8128" layer="16"/>
 <wire x1="39.37" y1="51.7525" x2="37.7825" y2="53.34" width="0.8128" layer="16"/>
 <wire x1="39.37" y1="51.7525" x2="40.64" y2="51.435" width="0.8128" layer="16"/>
@@ -820,9 +820,9 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="11"/>
 <contactref element="C2" pad="P$2"/>
 <contactref element="540HZ1" pad="E"/>
-<wire x1="43.4975" y1="54.2925" x2="43.4975" y2="50.8" width="0.8128" layer="16"/>
+<wire x1="43.4975" y1="54.2925" x2="44.1325" y2="50.8" width="0.8128" layer="16"/>
 <wire x1="43.18" y1="54.61" x2="43.4975" y2="54.2925" width="0.8128" layer="16"/>
-<wire x1="43.4975" y1="50.8" x2="44.99" y2="49.53" width="0.8128" layer="16"/>
+<wire x1="44.1325" y1="50.8" x2="44.99" y2="49.53" width="0.8128" layer="16"/>
 <wire x1="37.7825" y1="55.88" x2="36.83" y2="55.88" width="0.8128" layer="16"/>
 <wire x1="40.005" y1="54.2925" x2="37.7825" y2="55.88" width="0.8128" layer="16"/>
 <wire x1="43.18" y1="53.6575" x2="40.005" y2="54.2925" width="0.8128" layer="16"/>

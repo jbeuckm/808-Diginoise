@@ -7399,11 +7399,11 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="R1" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="1K"/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
 <part name="P-2" library="supply1" deviceset="-12V" device=""/>
-<part name="JCK1" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
+<part name="OUTPUT" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="adafruit" deviceset="PINHD-2X4" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
+<part name="LEVEL" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -7478,11 +7478,11 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <instance part="R1" gate="G$1" x="106.68" y="50.8" rot="R180"/>
 <instance part="P+1" gate="1" x="76.2" y="68.58"/>
 <instance part="P-2" gate="1" x="76.2" y="43.18"/>
-<instance part="JCK1" gate="G$1" x="121.92" y="45.72" rot="R180"/>
+<instance part="OUTPUT" gate="G$1" x="121.92" y="45.72" rot="R180"/>
 <instance part="GND10" gate="1" x="114.3" y="35.56"/>
 <instance part="JP1" gate="A" x="78.74" y="12.7"/>
 <instance part="GND11" gate="1" x="91.44" y="0"/>
-<instance part="R2" gate="G$1" x="93.98" y="50.8"/>
+<instance part="LEVEL" gate="G$1" x="93.98" y="50.8"/>
 <instance part="GND12" gate="1" x="93.98" y="35.56"/>
 </instances>
 <busses>
@@ -7528,7 +7528,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="JCK1" gate="G$1" pin="RING"/>
+<pinref part="OUTPUT" gate="G$1" pin="RING"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="114.3" y1="38.1" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -7552,7 +7552,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <junction x="88.9" y="10.16"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="A"/>
+<pinref part="LEVEL" gate="G$1" pin="A"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="93.98" y1="38.1" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
 </segment>
@@ -7753,7 +7753,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="68.58" y1="53.34" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="38.1" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="E"/>
+<pinref part="LEVEL" gate="G$1" pin="E"/>
 <wire x1="93.98" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
 <junction x="88.9" y="55.88"/>
 </segment>
@@ -7809,14 +7809,14 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="S"/>
+<pinref part="LEVEL" gate="G$1" pin="S"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="JCK1" gate="G$1" pin="TIP"/>
+<pinref part="OUTPUT" gate="G$1" pin="TIP"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="50.8" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
 </segment>

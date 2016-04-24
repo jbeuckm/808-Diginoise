@@ -39,7 +39,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -145,6 +145,13 @@
 <wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
 <rectangle x1="24.13" y1="26.924" x2="29.718" y2="30.48" layer="16"/>
+<wire x1="-0.762" y1="23.368" x2="-0.762" y2="77.47" width="1.6764" layer="46"/>
+<wire x1="-0.762" y1="77.47" x2="0" y2="78.74" width="1.6764" layer="46"/>
+<wire x1="0" y1="78.74" x2="50.038" y2="78.74" width="1.6764" layer="46"/>
+<wire x1="50.038" y1="78.74" x2="51.054" y2="77.47" width="1.6764" layer="46"/>
+<wire x1="51.054" y1="77.47" x2="51.054" y2="24.892" width="1.6764" layer="46"/>
+<wire x1="51.054" y1="24.892" x2="49.53" y2="23.368" width="1.6764" layer="46"/>
+<wire x1="49.53" y1="23.368" x2="-0.762" y2="23.368" width="1.6764" layer="46"/>
 </plain>
 <libraries>
 <library name="bourns_ptd">
